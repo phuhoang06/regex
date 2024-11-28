@@ -9,7 +9,7 @@ public class CrawlSongExample {
 
     public static void main(String[] args) {
         try {
-            URL url = new URL("https://www.nhaccuatui.com/playlist/hip-hop-viet-various-artists.whBOz9zTuDSs.html");
+            URL url = new URL("https://www.nhaccuatui.com/bai-hat/nhac-tre-moi.html");
             // open the stream and put it into BufferedReader
             Scanner scanner = new Scanner(new InputStreamReader(url.openStream()));
             scanner.useDelimiter("\\Z");
